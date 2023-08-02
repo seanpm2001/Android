@@ -17,6 +17,7 @@
 package com.duckduckgo.networkprotection.api
 
 interface NetworkProtectionState {
+
     /**
      * This is a suspend function because the operation has I/O.
      * You DO NOT need to set any dispatcher to call this suspend function
